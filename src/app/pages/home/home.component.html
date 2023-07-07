@@ -1,1 +1,76 @@
-<p>home works!</p>
+<div class="container">
+    <section class="row">
+        <div class="col-12">
+            <div class="section">
+                <h1 class="title">Lotofácil</h1>
+                <h2 class="lead">Aqui você acompanha os números que mais foram sorteados nos últimos concursos.</h2>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="section">
+                <h1 class="title">Vamos conferir seus números?</h1>
+                <h2 class="lead">Digite nos campos abaixo 15 números entre 1 e 25 referentes aos concursos:</h2>
+
+                <form novalidate class="mt-5" [formGroup]="form" (ngSubmit)="submit()">
+                    <div class="row">
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="1" type="text" id="n1" formControlName="n1" class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="2" type="text" id="n2" formControlName="n2" class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="3" type="text" id="n3" formControlName="n3" class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="4" type="text" id="n4" formControlName="n4" class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="5" type="text" id="n5" formControlName="n5" class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="6" type="text" id="n6" formControlName="n6" class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="7" type="text" id="n7" formControlName="n7" class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="8" type="text" id="n8" formControlName="n8" class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="9" type="text" id="n9" formControlName="n9" class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="10" type="text" id="n10" formControlName="n10"
+                                class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="11" type="text" id="n11" formControlName="n11"
+                                class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="12" type="text" id="n12" formControlName="n12"
+                                class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="13" type="text" id="n13" formControlName="n13"
+                                class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="14" type="text" id="n14" formControlName="n14"
+                                class="form-control mb-4" />
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-6">
+                            <input placeholder="15" type="text" id="n15" formControlName="n15"
+                                class="form-control mb-4" />
+                        </div>
+                    </div>
+
+                    <div class="d-flex justify-content-end">
+                        <button class="btn btn-info btn-lg">Cadastrar resultado</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</div>
